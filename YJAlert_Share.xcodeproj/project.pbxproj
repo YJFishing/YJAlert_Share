@@ -15,6 +15,7 @@
 		393944FE207F39F100868FEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 393944FD207F39F100868FEA /* main.m */; };
 		39394508207F39F100868FEA /* YJAlert_ShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39394507207F39F100868FEA /* YJAlert_ShareTests.m */; };
 		39394513207F39F100868FEA /* YJAlert_ShareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39394512207F39F100868FEA /* YJAlert_ShareUITests.m */; };
+		39F05E5E207F538A00C1B79C /* YJAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F05E5D207F538A00C1B79C /* YJAlertAction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3939450E207F39F100868FEA /* YJAlert_ShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJAlert_ShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39394512207F39F100868FEA /* YJAlert_ShareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJAlert_ShareUITests.m; sourceTree = "<group>"; };
 		39394514207F39F100868FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39F05E5C207F538A00C1B79C /* YJAlertAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJAlertAction.h; sourceTree = "<group>"; };
+		39F05E5D207F538A00C1B79C /* YJAlertAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJAlertAction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		393944E2207F39EF00868FEA = {
 			isa = PBXGroup;
 			children = (
+				39F05E5B207F50B400C1B79C /* YJShare */,
+				39F05E5A207F50AD00C1B79C /* YJAlert */,
 				393944ED207F39EF00868FEA /* YJAlert_Share */,
 				39394506207F39F100868FEA /* YJAlert_ShareTests */,
 				39394511207F39F100868FEA /* YJAlert_ShareUITests */,
@@ -130,6 +135,22 @@
 				39394514207F39F100868FEA /* Info.plist */,
 			);
 			path = YJAlert_ShareUITests;
+			sourceTree = "<group>";
+		};
+		39F05E5A207F50AD00C1B79C /* YJAlert */ = {
+			isa = PBXGroup;
+			children = (
+				39F05E5C207F538A00C1B79C /* YJAlertAction.h */,
+				39F05E5D207F538A00C1B79C /* YJAlertAction.m */,
+			);
+			path = YJAlert;
+			sourceTree = "<group>";
+		};
+		39F05E5B207F50B400C1B79C /* YJShare */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YJShare;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +286,7 @@
 				393944F3207F39EF00868FEA /* ViewController.m in Sources */,
 				393944FE207F39F100868FEA /* main.m in Sources */,
 				393944F0207F39EF00868FEA /* AppDelegate.m in Sources */,
+				39F05E5E207F538A00C1B79C /* YJAlertAction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
