@@ -16,6 +16,7 @@
 		39394508207F39F100868FEA /* YJAlert_ShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39394507207F39F100868FEA /* YJAlert_ShareTests.m */; };
 		39394513207F39F100868FEA /* YJAlert_ShareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39394512207F39F100868FEA /* YJAlert_ShareUITests.m */; };
 		39F05E5E207F538A00C1B79C /* YJAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F05E5D207F538A00C1B79C /* YJAlertAction.m */; };
+		39F05E61207FAD5600C1B79C /* YJAlertTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F05E60207FAD5600C1B79C /* YJAlertTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		39394514207F39F100868FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39F05E5C207F538A00C1B79C /* YJAlertAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJAlertAction.h; sourceTree = "<group>"; };
 		39F05E5D207F538A00C1B79C /* YJAlertAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJAlertAction.m; sourceTree = "<group>"; };
+		39F05E5F207FAD5600C1B79C /* YJAlertTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJAlertTextView.h; sourceTree = "<group>"; };
+		39F05E60207FAD5600C1B79C /* YJAlertTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJAlertTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +145,8 @@
 			children = (
 				39F05E5C207F538A00C1B79C /* YJAlertAction.h */,
 				39F05E5D207F538A00C1B79C /* YJAlertAction.m */,
+				39F05E5F207FAD5600C1B79C /* YJAlertTextView.h */,
+				39F05E60207FAD5600C1B79C /* YJAlertTextView.m */,
 			);
 			path = YJAlert;
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 				393944FE207F39F100868FEA /* main.m in Sources */,
 				393944F0207F39EF00868FEA /* AppDelegate.m in Sources */,
 				39F05E5E207F538A00C1B79C /* YJAlertAction.m in Sources */,
+				39F05E61207FAD5600C1B79C /* YJAlertTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

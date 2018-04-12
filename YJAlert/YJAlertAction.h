@@ -55,7 +55,7 @@ typedef NS_ENUM(NSUInteger,YJAlertActionStyle) {
 
 @property (nonatomic, copy, readonly) YJAlertAction *(^setHighLightImage)(UIImage *image);
 
-@property (nonatomic, copy, readonly) YJAlertAction *(^setCustomView)(UIView *(customView)(void));
+@property (nonatomic, copy, readonly) YJAlertAction *(^setCustomView)(UIView *(^customView)(void));
 
 @property (nonatomic, copy, readonly) YJAlertAction *(^setSeparatorLineHidden)(BOOL hidden);
 @end
