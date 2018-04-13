@@ -16,6 +16,7 @@
 		39394508207F39F100868FEA /* YJAlert_ShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39394507207F39F100868FEA /* YJAlert_ShareTests.m */; };
 		39394513207F39F100868FEA /* YJAlert_ShareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39394512207F39F100868FEA /* YJAlert_ShareUITests.m */; };
 		3963501120808AEA0075346F /* YJAlertTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3963501020808AEA0075346F /* YJAlertTableViewCell.m */; };
+		396350172080AB0D0075346F /* YJAlertCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 396350162080AB0D0075346F /* YJAlertCollectionViewCell.m */; };
 		39F05E5E207F538A00C1B79C /* YJAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F05E5D207F538A00C1B79C /* YJAlertAction.m */; };
 		39F05E61207FAD5600C1B79C /* YJAlertTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F05E60207FAD5600C1B79C /* YJAlertTextView.m */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,8 @@
 		39394514207F39F100868FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3963500F20808AEA0075346F /* YJAlertTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJAlertTableViewCell.h; sourceTree = "<group>"; };
 		3963501020808AEA0075346F /* YJAlertTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJAlertTableViewCell.m; sourceTree = "<group>"; };
+		396350152080AB0D0075346F /* YJAlertCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJAlertCollectionViewCell.h; sourceTree = "<group>"; };
+		396350162080AB0D0075346F /* YJAlertCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJAlertCollectionViewCell.m; sourceTree = "<group>"; };
 		39F05E5C207F538A00C1B79C /* YJAlertAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJAlertAction.h; sourceTree = "<group>"; };
 		39F05E5D207F538A00C1B79C /* YJAlertAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJAlertAction.m; sourceTree = "<group>"; };
 		39F05E5F207FAD5600C1B79C /* YJAlertTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJAlertTextView.h; sourceTree = "<group>"; };
@@ -152,6 +155,8 @@
 				39F05E60207FAD5600C1B79C /* YJAlertTextView.m */,
 				3963500F20808AEA0075346F /* YJAlertTableViewCell.h */,
 				3963501020808AEA0075346F /* YJAlertTableViewCell.m */,
+				396350152080AB0D0075346F /* YJAlertCollectionViewCell.h */,
+				396350162080AB0D0075346F /* YJAlertCollectionViewCell.m */,
 			);
 			path = YJAlert;
 			sourceTree = "<group>";
@@ -293,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				396350172080AB0D0075346F /* YJAlertCollectionViewCell.m in Sources */,
 				393944F3207F39EF00868FEA /* ViewController.m in Sources */,
 				3963501120808AEA0075346F /* YJAlertTableViewCell.m in Sources */,
 				393944FE207F39F100868FEA /* main.m in Sources */,
