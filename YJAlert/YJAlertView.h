@@ -104,7 +104,7 @@ typedef NS_ENUM(NSUInteger,YJAlertStyle) {
 @property (nonatomic, copy, readonly) YJAlertView *(^setDismissTimeInterval)(CGFloat dismissTimeInterval);
 
 #pragma mark ---类方法---
-+ (instancetype)alertViewWithTitle:(NSString *)title message:(NSString *)message stye:(YJAlertStyle *)alertStyle;
++ (instancetype)alertViewWithTitle:(NSString *)title message:(NSString *)message stye:(YJAlertStyle)alertStyle;
 //链式实例化
 + (YJAlertView *(^)(NSString *title,NSString *message,YJAlertStyle style))alertView;
 
